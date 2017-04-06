@@ -40,20 +40,16 @@ h3  {
 }
 .one-fourth  {
     display: inline-block;
-    width: 20%;
-    height: auto;
-    margin-left: 4.5%;
+    width: 23%;
+    margin-left: 1%;
+    margin-top: 5%;
     margin-bottom: 4%;
+    border: 2px solid gray;
 }
 .one-fourth img {
-    width: 200px;
+    width: 100%;
     height: 200px;
-    margin-top: 15%;
-    padding-top: 3%;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: white;
-    border: 1px solid gray;
+    border: 2px solid gray;
 }
 h2  {
     font-size: 375%;
@@ -74,18 +70,14 @@ h5  {
     font-size: 110%;
     font-weight: 200;
     text-align: center;
-    margin-left: -23%;
 }
 .one-fourth p {
     font-family: sans-serif;
-    font-size: 100%;
-    font-weight: 200;
-    color: black
-    width: 200px;
-    height: auto;
-    padding: 2%;
-    margin-left: 5%;
-    margin-bottom: -2%;
+    font-size: 90%;
+    font-weight: 175;
+    text-align: center;
+    padding: 3%;
+    box-sizing: border-box;
 }
 hr {
     height: 2px;
@@ -117,13 +109,18 @@ hr {
 }
 .one-half img {
     float: left;
-    margin-left: 6%;
-    margin-top: 7.5%;
+    margin-top: 7%;
     border-radius: 2%;
     display: inline-block;
-    width: 72%;
+    width: 73%;
     height: auto;
+    margin-left: 10%;
     border: 6px solid #8FB5C1;
+}
+h6  {
+    font-size: 150%;
+    color: #304e96;
+    text-align: center;
 }
 #contact-form {
     background-color: white;
