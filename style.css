@@ -44,12 +44,21 @@ h3  {
     margin-left: 1%;
     margin-top: 5%;
     margin-bottom: 4%;
-    border: 2px solid gray;
+    background-color: white;
+    border: 2px solid black;
 }
 .one-fourth img {
     width: 100%;
     height: 200px;
-    border: 2px solid gray;
+}
+.one-fourth p {
+    font-family: sans-serif;
+    font-size: 90%;
+    color: black;
+    font-weight: 175;
+    text-align: center;
+    padding: 3%;
+    box-sizing: border-box;
 }
 h2  {
     font-size: 375%;
@@ -69,15 +78,8 @@ h5  {
     font-family: sans-serif;
     font-size: 110%;
     font-weight: 200;
+    color: black;
     text-align: center;
-}
-.one-fourth p {
-    font-family: sans-serif;
-    font-size: 90%;
-    font-weight: 175;
-    text-align: center;
-    padding: 3%;
-    box-sizing: border-box;
 }
 hr {
     height: 2px;
@@ -109,12 +111,13 @@ hr {
 }
 .one-half img {
     float: left;
-    margin-top: 7%;
+    margin-top: 8%;
     border-radius: 2%;
     display: inline-block;
-    width: 73%;
-    height: auto;
-    margin-left: 10%;
+    width: 505px;
+    height: 782px;
+    margin-left: 13%;
+    margin-bottom: 2%;
     border: 6px solid #8FB5C1;
 }
 h6  {
@@ -338,34 +341,36 @@ footer .bottom p  {
       font-size: 350%;
   }
   #slideshow {
-      margin-left: -1.5%;
-      width: 300px;
+      margin-left: 2%;
+      width: 325px;
       height: 175px;
   }
   #slideshow img {
-      width: 300px;
+      width: 325px;
       height: 175px;
       margin-bottom: 2%;
   }
   .one-fourth  {
-      width: 300px;
+      width: 325px;
       margin-top: 5%;
-      margin-left: 2%;
+      margin-left: 6%;
       display: inline-block;
       border: 2px solid gray;
   }
   .one-fourth p {
       font-size: 65%;
-      width: 260px;
-      padding-left: 2%;
+      width: 270px;
+      padding: 3%;
       text-align: center;
+      margin-left: 8%;
       margin-bottom: 5%;
   }
   .one-fourth img {
       margin-top: 0;
-      width: 275px;
-      padding-left: 4%;
-      padding-right: 4%;
+      width: 280px;
+      padding-top: 2%;
+      padding-left: 7%;
+      padding-right: 3%;
   }
   h2  {
       font-size: 250%;
